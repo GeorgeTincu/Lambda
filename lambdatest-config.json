@@ -1,0 +1,32 @@
+{
+  "lambdatest_auth": {
+    "username": "george.tincu",
+    "access_key": "Z3TpVuxfZAtwn3HnzwC643ba5YjfHeiSvFWPbVSxr1s5ePj9QW"
+  },
+  "browsers": [
+    {
+      "browser": "Chrome",
+      "platform": "Windows 10",
+      "versions": ["latest-1"]
+    },
+    {
+      "browser": "Electron",
+      "platform": "macOS Ventura",
+      "versions": ["latest"]
+    }
+  ],
+  "run_settings": {
+    "reporter_config_file": "base_reporter_config.json",
+    "build_name": "build-name",
+    "parallels": 1,
+    "specs": "./cypress/e2e/*cy.js",
+    "ignore_files": "",
+    "network": true,
+    "headless": true,
+    "screenshots": true
+  },
+  "tunnel_settings": {
+    "tunnel": false,
+    "tunnel_name": null
+  }
+}
